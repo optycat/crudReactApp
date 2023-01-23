@@ -1,0 +1,28 @@
+.app-add-form {
+    margin-top: 30px;
+    padding: 25px;
+    background-color: #3d5a80;
+    border-radius: 4px;
+    box-shadow: 15px 15px 30px rgba(0,0,0, .15);
+    color: #fff;
+}
+
+.add-form {
+    margin: 20px 0;
+    input {
+        width: 350px;
+        margin-right: 20px;
+    }
+}
+
+.validation-field {
+    color: #FF0000;
+    margin: 0 auto;
+    display: none;
+    width: 100%;
+    text-align: center;
+}
+
+.validation-field.active{
+    display: block;
+}
